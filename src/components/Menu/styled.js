@@ -4,7 +4,7 @@ export const Container =styled.div`
 display: flex;
 justify-content:space-between;
 width: 100%;
-height: 90px;
+height: 80px;
 align-items: center;
 `
 
@@ -32,6 +32,7 @@ height: 50px;
 border-radius: 5px;
 color: white;
 font-size: 1.3rem;
+border: none;
 `
 
 export const Trecho =styled.span`
