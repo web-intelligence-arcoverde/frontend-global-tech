@@ -10,7 +10,7 @@ const Menu = () => {
 
         <div>
             <S.Menu>
-                <S.Lista>Tarifas</S.Lista>
+                <S.Lista>Planos</S.Lista>
                 <S.Lista>Serviços</S.Lista>
                 <S.Lista>Negócios</S.Lista>
                 <S.Lista>Contato</S.Lista>

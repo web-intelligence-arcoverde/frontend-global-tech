@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from '../../components/Menu/Menu'
+import Planos from '../../components/Planos';
 import Secao1 from '../../components/Secao-Um';
 
 
@@ -13,7 +14,9 @@ const Home = () => {
 
             <main>
                 <Secao1/>
+                <Planos/>
             </main>
+            
         </>
     )
 };
