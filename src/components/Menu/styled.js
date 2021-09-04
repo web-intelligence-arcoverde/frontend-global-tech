@@ -6,6 +6,7 @@ justify-content:space-between;
 width: 100%;
 height: 80px;
 align-items: center;
+border-top: 1px solid gray;
 `
 
 export const Menu =styled.nav`

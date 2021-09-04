@@ -11,11 +11,11 @@ const Planos = () => {
             <S.ContainerCard>
                 <S.Card>
                     <h1>Super Velocidade</h1>
-                    <p>Internet 100% fibra</p>
+                    <p>Fibra óptica</p>
                     <h5> <S.Destaque>200</S.Destaque>GB</h5>
                     <p>Wi-fi de alta Perfomance </p>
                     <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 120,00 </S.Destaque>R$ </h5>
+                    <h5><S.Destaque> 119,90 </S.Destaque>R$ </h5>
                 </S.Card>
 
                 <S.IconeCard>
@@ -27,11 +27,11 @@ const Planos = () => {
             <S.ContainerCard2>
                 <S.Card>
                     <h1>Alta Velocidade</h1>
-                    <p>Internet 100% fibra</p>
+                    <p>Fibra óptica</p>
                     <h5> <S.Destaque>150</S.Destaque>GB</h5>
                     <p>Wi-fi de alta Perfomance </p>
                     <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 100,00 </S.Destaque>R$ </h5>
+                    <h5><S.Destaque> 99,90 </S.Destaque>R$ </h5>
                 </S.Card>
 
                 <S.IconeCard>
@@ -43,11 +43,11 @@ const Planos = () => {
             <S.ContainerCard3>
                 <S.Card>
                     <h1>Velocidade Média</h1>
-                    <p>Internet 100% fibra</p>
-                    <h5> <S.Destaque>150</S.Destaque>GB</h5>
+                    <p>Fibra óptica</p>
+                    <h5> <S.Destaque>100</S.Destaque>GB</h5>
                     <p>Wi-fi de alta Perfomance </p>
                     <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 100,00 </S.Destaque>R$ </h5>
+                    <h5><S.Destaque> 79,90 </S.Destaque>R$ </h5>
                 </S.Card>
 
                 <S.IconeCard>
@@ -59,11 +59,11 @@ const Planos = () => {
             <S.ContainerCard4>
                 <S.Card>
                     <h1>Plano Estudante</h1>
-                    <p>Internet 100% fibra</p>
-                    <h5> <S.Destaque>150</S.Destaque>GB</h5>
+                    <p>Fibra óptica</p>
+                    <h5> <S.Destaque>70</S.Destaque>GB</h5>
                     <p>Wi-fi de alta Perfomance </p>
                     <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 100,00 </S.Destaque>R$ </h5>
+                    <h5><S.Destaque> 59,90 </S.Destaque>R$ </h5>
                 </S.Card>
 
                 <S.IconeCard>
