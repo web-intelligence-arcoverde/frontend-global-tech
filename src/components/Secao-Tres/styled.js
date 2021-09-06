@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container =styled.div`
 
 display: flex;
-margin-left: 20px;
 
 `
 
@@ -29,7 +28,7 @@ padding: 10px;
 export const CardContainer =styled.div`
 
 display: flex;
-
+margin: 20px;
 flex-wrap: wrap;
 
 `
@@ -56,7 +55,7 @@ color:black;
 font-size:20px;
 `
 export const Botao =styled.button`
-background:#FF4D4D ;
+background:#81bd4d ;
 width: 200px;
 height: 50px;
 border-radius: 5px;
@@ -64,7 +63,8 @@ color: white;
 font-size: 1.3rem;
 border: none;
 margin-left: 40px;
-
+padding-bottom: 10px;
+padding-right: 15px;
 :hover{
 
     background:#52891d;

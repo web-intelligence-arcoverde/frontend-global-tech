@@ -1,23 +1,26 @@
 import react from "react";
 import * as S from './styled'
 
-import Setup from '../../assets/setup.png'
+import Roteador from '../../assets/roteador.png'
 import Whatsapp from '../../assets/whatsapp.png'
 import Relogio from '../../assets/relogio.png'
 import Bussula from '../../assets/bussola.png'
 import Escudo from '../../assets/escudo.png'
 import Dados from '../../assets/dados.png'
 
-const Secao2 = () => {
+const Secao3 = () => {
     return (
         <S.Container>
-            
+            <div>
+                <S.Roteador src={Roteador} />
+            </div>
 
             <div>
-                <h3>Para Pessoas Jurídicas</h3>
-                <S.Para>150 Mega com Wi-Fi Plus + Proteção Digital por R$ 100,00/mês.
-                     Tudo Junto e Conectado com o Seu Negócio.
-                      Sua Empresa Digitalizada e Muito Mais.Venha conhecer a Global Tech  </S.Para>
+                <h3>Faça o pedido pelo Whatssap e ganhe um roteador wi-fi grátis</h3>
+                <S.Para>Ter uma rede Wi-Fi na empresa ou em casa não é mais um luxo há muito tempo. A rede sem fio se tornou uma necessidade.
+                    Celular, tablet, notebook e smart TV são equipamentos
+                    que usamos todos os dias e somos dependentes. Por sua vez, todos
+                    eles dependem de uma rede Wi-Fi eficiente.</S.Para>
 
                 <S.CardContainer>
 
@@ -49,19 +52,14 @@ const Secao2 = () => {
                         <S.Para2><S.Spam>Lorem ipsum</S.Spam><br /> uctor tincidunt ultricies tortor felis commodo sed at</S.Para2>
                     </S.MiniContainer>
 
-                    <S.Botao type='button'>Fazer Pedido </S.Botao>
+                    <S.Botao type='button'>Fazer Pedido <S.Whats src={Whatsapp}/></S.Botao>
                 </S.CardContainer>
             </div>
 
-            <div>
-                <S.Roteador src={Setup} />
-            </div>
 
-            <br/>
         </S.Container>
-        
     )
 
 }
 
-export default Secao2;
+export default Secao3;

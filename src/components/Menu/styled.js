@@ -22,7 +22,7 @@ width: 77px;
 margin-left: 100px;
 :hover{
     cursor: pointer;
-    color:#C3FFC2
+    color:#52891d;
 }
 `
 
