@@ -1,12 +1,11 @@
 import react from "react";
 import * as S from './styled';
-import Facebook from '../../assets/facebook.png';
-import Linkedin from '../../assets/inkedin.png';
-import Intagram from '../../assets/instagram.png';
-import Gps from '../../assets/gps.png';
-import Mensagem from '../../assets/mensagem.png';
-import Telefone from '../../assets/telefone2.png';
-
+import Facebook from '../../assets/Icons/facebook.svg';
+import Twitter from '../../assets/Icons/twitter.svg'
+import Gps from '../../assets/Icons/gps.svg';
+import Mensagem from '../../assets/Icons/Mensagem.svg';
+import Telefone from '../../assets/Icons/telefone.svg'
+import Instagram from '../../assets/Icons/instagram.svg'
 
 
 const Footer = () => {
@@ -32,8 +31,8 @@ const Footer = () => {
                 <h3>Nossas Redes Sociais</h3>
                 <S.RedesSocias>
                     <S.Icones src={Facebook} />
-                    <S.Icones src={Linkedin} />
-                    <S.Icones src={Intagram} />
+                    <S.Icones src={Twitter} />
+                    <S.Icones src={Instagram} />
                 </S.RedesSocias>
             </S.ContainerRedes>
 
