@@ -1,79 +1,63 @@
 import React from "react";
-import * as S from './styled'
-import Foguete from '../../assets/foguete.png'
-import Camaro from '../../assets/camaro.png'
-import Moto from '../../assets/moto.png'
-import Basico from '../../assets/basico.png'
+import * as S from "./styled";
+
+import Rocket from "../../assets/Image/rocket.png";
+import Car from "../../assets/Image/car.png";
+import Motorcycle from "../../assets/Image/motorcycle.png";
+import User from "../../assets/Image/user.png";
+
+import Card from "../../components/atomic/Card/Plan";
 
 const Planos = () => {
-    return (
-        <S.Container>
-            <S.ContainerCard>
-                <S.Card>
-                    <h1>Super Velocidade</h1>
-                    <p>Fibra óptica</p>
-                    <h5> <S.Destaque>200</S.Destaque>GB</h5>
-                    <p>Wi-fi de alta Perfomance </p>
-                    <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 119,90 </S.Destaque>R$ </h5>
-                </S.Card>
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "20px",
+      }}
+    >
+      <div>
+        <h3>Planos</h3>
+      </div>
+      <S.Container>
+        <Card
+          color={"card1"}
+          Img={Rocket}
+          title={"Super Velocidade"}
+          velocity={200}
+          price={"119, 90"}
+        />
 
-                <S.IconeCard>
-                    <S.ImgFoguete src={Foguete} />
-                </S.IconeCard>
+        <Card
+          color={"card2"}
+          Img={Car}
+          title={"Alta Velocidade"}
+          velocity={150}
+          price={"99,90"}
+        />
 
-            </S.ContainerCard>
+        <Card
+          color={"card3"}
+          Img={Motorcycle}
+          title={"Velocidade Média"}
+          velocity={100}
+          price={"79,90"}
+        />
 
-            <S.ContainerCard2>
-                <S.Card>
-                    <h1>Alta Velocidade</h1>
-                    <p>Fibra óptica</p>
-                    <h5> <S.Destaque>150</S.Destaque>GB</h5>
-                    <p>Wi-fi de alta Perfomance </p>
-                    <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 99,90 </S.Destaque>R$ </h5>
-                </S.Card>
-
-                <S.IconeCard>
-                    <S.ImgFoguete src={Camaro} />
-                </S.IconeCard>
-
-            </S.ContainerCard2>
-
-            <S.ContainerCard3>
-                <S.Card>
-                    <h1>Velocidade Média</h1>
-                    <p>Fibra óptica</p>
-                    <h5> <S.Destaque>100</S.Destaque>GB</h5>
-                    <p>Wi-fi de alta Perfomance </p>
-                    <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 79,90 </S.Destaque>R$ </h5>
-                </S.Card>
-
-                <S.IconeCard>
-                    <S.ImgFoguete src={Moto} />
-                </S.IconeCard>
-
-            </S.ContainerCard3>
-
-            <S.ContainerCard4>
-                <S.Card>
-                    <h1>Plano Estudante</h1>
-                    <p>Fibra óptica</p>
-                    <h5> <S.Destaque>70</S.Destaque>GB</h5>
-                    <p>Wi-fi de alta Perfomance </p>
-                    <p>Instalação inclusa</p>
-                    <h5><S.Destaque> 59,90 </S.Destaque>R$ </h5>
-                </S.Card>
-
-                <S.IconeCard>
-                    <S.Icone4 src={Basico} />
-                </S.IconeCard>
-
-            </S.ContainerCard4>
-
-        </S.Container>
-    )
-}
+        <Card
+          color={"card4"}
+          Img={User}
+          title={"Plano Estudante"}
+          velocity={70}
+          price={"59,90"}
+        />
+      </S.Container>
+    </div>
+  );
+};
 
 export default Planos;

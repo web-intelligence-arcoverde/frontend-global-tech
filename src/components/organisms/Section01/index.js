@@ -6,8 +6,6 @@ import { ReactComponent as EarthIcon } from "../../../assets/Icons/earth.svg";
 import { ReactComponent as WalletIcon } from "../../../assets/Icons/wallet.svg";
 import { ReactComponent as LockIcon } from "../../../assets/Icons/lock.svg";
 
-import { ReactComponent as ArrowRightIcon } from "../../../assets/Icons/arrow-right.svg";
-
 import Card from "../../../components/atomic/Card/First";
 
 const Index = () => {
