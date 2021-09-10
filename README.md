@@ -3,3 +3,4 @@
 - Nunca usar o nome da cores sempre em hexadecimal
 - Algumas tags html vem com estilização básica tentar sempre remover ao menos o padding e o maring delas ( h1,h2 e etc...) usa o inspecionar do google chrome para identificar
 - absolut imports
+- Quando for usar imagem, não usar tamanho fixo, usar porcentagem.

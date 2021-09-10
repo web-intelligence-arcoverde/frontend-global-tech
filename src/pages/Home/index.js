@@ -1,29 +1,44 @@
 import React from "react";
-import Menu from "../../components/organisms/Menu";
-import Planos from "../../components/Planos";
 
-import MiniCard from "../../components/MiniCards";
+import Menu from "../../components/organisms/Menu";
+import PlansInformation from "../../components/organisms/Plans";
+
 import Secao3 from "../../components/Secao-Tres";
 import Footer from "../../components/Footer";
-import Secao2 from "../../components/Secao-Dois";
 
 import Section01 from "../../components/organisms/Section01";
+
+import ReasonsChoiceCards from "../../components/organisms/ReasonChoiceCards";
 
 const Home = () => {
   return (
     <>
-      <header>
-        <Menu />
-      </header>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "90%",
+          }}
+        >
+          <header>
+            <Menu />
+          </header>
 
-      <main>
-        <Section01 />
-        <Planos />
-        <MiniCard />
-        <Secao2 />
-        <Secao3 />
-      </main>
-
+          <main>
+            <Section01 />
+            <PlansInformation />
+            <ReasonsChoiceCards />
+            <Secao3 />
+          </main>
+        </div>
+      </div>
       <footer>
         <Footer />
       </footer>

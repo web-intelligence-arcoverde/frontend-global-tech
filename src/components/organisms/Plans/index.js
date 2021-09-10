@@ -1,14 +1,18 @@
 import React from "react";
+
+/* Styled Components */
 import * as S from "./styled";
 
-import Rocket from "../../assets/Image/rocket.png";
-import Car from "../../assets/Image/car.png";
-import Motorcycle from "../../assets/Image/motorcycle.png";
-import User from "../../assets/Image/user.png";
+/* Imagens */
+import Rocket from "../../../assets/Image/rocket.png";
+import Car from "../../../assets/Image/car.png";
+import Motorcycle from "../../../assets/Image/motorcycle.png";
+import User from "../../../assets/Image/user.png";
 
-import Card from "../../components/atomic/Card/Plan";
+/* Imagens */
+import Card from "../../atomic/Card/Plan";
 
-const Planos = () => {
+const Index = () => {
   return (
     <div
       style={{
@@ -60,4 +64,4 @@ const Planos = () => {
   );
 };
 
-export default Planos;
+export default Index;

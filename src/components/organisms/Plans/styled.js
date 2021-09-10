@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import COLORS from "../../constants/colors";
+import COLORS from "../../../constants/colors";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 20px;
 `;
 
