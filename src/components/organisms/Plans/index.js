@@ -14,20 +14,11 @@ import Card from "../../atomic/Card/Plan";
 
 const Index = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        width: "100%",
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: "20px",
-      }}
-    >
+    <S.Container id="servico">
       <div>
-        <h3>Planos</h3>
+        <h2>Conheça nossos Planos</h2>
       </div>
-      <S.Container>
+      <S.ContainerCard>
         <Card
           color={"card1"}
           Img={Rocket}
@@ -59,8 +50,8 @@ const Index = () => {
           velocity={70}
           price={"59,90"}
         />
-      </S.Container>
-    </div>
+      </S.ContainerCard>
+    </S.Container>
   );
 };
 

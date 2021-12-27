@@ -10,70 +10,61 @@ import Dados from "../../assets/dados.png";
 
 const Secao3 = () => {
   return (
-    <S.Container>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "80%",
-          height: "100%",
-        }}
-      >
-        <S.Roteador src={Roteador} />
-      </div>
+    <S.Container id="promocoes">
+      <S.Roteador src={Roteador} />
 
-      <div>
+      <S.ColumnRight>
         <h3>Faça o pedido pelo Whatssap e ganhe um roteador wi-fi grátis</h3>
-        <S.Para>
+        <p>
           Ter uma rede Wi-Fi na empresa ou em casa não é mais um luxo há muito
           tempo. A rede sem fio se tornou uma necessidade. Celular, tablet,
           notebook e smart TV são equipamentos que usamos todos os dias e somos
           dependentes. Por sua vez, todos eles dependem de uma rede Wi-Fi
           eficiente.
-        </S.Para>
+        </p>
 
         <S.CardContainer>
           <S.MiniContainer>
             <S.Card>
               <S.Icone src={Relogio} />
             </S.Card>
-            <S.Para2>
+            <p>
               <S.Spam>Lorem ipsum</S.Spam>
               <br /> uctor tincidunt ultricies tortor felis commodo sed at
-            </S.Para2>
+            </p>
           </S.MiniContainer>
 
           <S.MiniContainer>
             <S.Card>
               <S.Icone src={Escudo} />
             </S.Card>
-            <S.Para2>
+            <p>
               <S.Spam>Lorem ipsum</S.Spam>
               <br /> uctor tincidunt ultricies tortor felis commodo sed at
-            </S.Para2>
+            </p>
           </S.MiniContainer>
 
           <S.MiniContainer>
             <S.Card>
               <S.Icone src={Bussula} />
             </S.Card>
-            <S.Para2>
+            <p>
               <S.Spam>Lorem ipsum</S.Spam>
               <br /> uctor tincidunt ultricies tortor felis commodo sed at
-            </S.Para2>
+            </p>
           </S.MiniContainer>
 
           <S.MiniContainer>
             <S.Card>
               <S.Icone src={Dados} />
             </S.Card>
-            <S.Para2>
+            <p>
               <S.Spam>Lorem ipsum</S.Spam>
               <br /> uctor tincidunt ultricies tortor felis commodo sed at
-            </S.Para2>
+            </p>
           </S.MiniContainer>
         </S.CardContainer>
-      </div>
+      </S.ColumnRight>
     </S.Container>
   );
 };

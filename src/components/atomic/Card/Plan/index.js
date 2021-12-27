@@ -1,9 +1,9 @@
 import React from "react";
 import * as S from "./style";
 
-const Index = ({ Img, color, title, velocity, price }) => {
+const Index = ({ Img, color, title, velocity, price, onClick }) => {
   return (
-    <S.Card color={color}>
+    <S.Card color={color} onClick={onClick}>
       <div
         style={{
           display: "flex",

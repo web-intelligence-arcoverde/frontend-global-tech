@@ -1,24 +1,15 @@
 import React from "react";
 
 /* Styled Components */
-import { TitleSection, ContainerCard } from "./styled";
+import { TitleSection, ContainerCard, Container } from "./styled";
 
 import Card from "../../atomic/Card/ReasonChoice";
 
 const Index = () => {
   return (
-    <div
-      style={{ display: "flex", flexDirection: "column", marginTop: "20px" }}
-    >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
-        <TitleSection>Motivos para nos escolher</TitleSection>
-      </div>
+    <Container>
+      <h2>Motivos para nos escolher</h2>
+
       <ContainerCard>
         <Card
           title={"Preços com desconto"}
@@ -32,12 +23,10 @@ const Index = () => {
 
         <Card
           title={"Suporte"}
-          description={
-            "Tenha certeza de que nossa equipe estará pronta para lhe atender em menos de 24hrs."
-          }
+          description={"Equipe pronta para lhe atender em menos de 24hrs."}
         />
       </ContainerCard>
-    </div>
+    </Container>
   );
 };
 

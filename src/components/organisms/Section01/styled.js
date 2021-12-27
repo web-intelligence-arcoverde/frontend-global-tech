@@ -5,6 +5,10 @@ export const Container = styled.div`
   background: ${COLORS.thirdBlue};
   display: flex;
   justify-content: space-around;
+  @media (max-width: 769px) {
+    height: auto;
+    width: 100%;
+  }
 `;
 
 export const Img = styled.img`
@@ -18,6 +22,9 @@ export const CardImg = styled.div`
   margin-left: 30px;
   height: 550px;
   align-items: center;
+  @media (max-width: 769px) {
+    display: none;
+  }
 `;
 
 export const Conteudo = styled.div`
@@ -27,17 +34,19 @@ export const Conteudo = styled.div`
 `;
 export const ContainerCards = styled.div`
   display: flex;
-  flex-direction: row;
   margin-top: 20px;
+  @media (max-width: 769px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 `;
 
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-
-  width: 200px;
+  width: 20%;
   height: 210px;
-
   background: ${COLORS.white};
   border-radius: 5px;
   padding: 10px;
@@ -60,9 +69,15 @@ export const H5 = styled.div`
 export const Title = styled.h1`
   margin: 0px;
   color: ${COLORS.gray};
+  @media (max-width: 769px) {
+    font-size: 22px;
+    width: 16ch;
+    text-align: center;
+  }
 `;
 
 export const Paragraph = styled.p`
-  margin: 0px;
+  margin: 10px 0;
   color: ${COLORS.gray};
+  text-align: center;
 `;

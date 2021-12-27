@@ -18,7 +18,7 @@ const Index = () => {
       <S.Conteudo>
         <div>
           <S.Title>Obtenha mais do que importa para você</S.Title>
-          <div style={{ marginTop: "10px" }}>
+          <div>
             <S.Paragraph>Você muda,você economiza</S.Paragraph>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Index = () => {
         <S.ContainerCards>
           <Card
             Icon={EarthIcon}
-            title={"Para sua casa"}
+            title={"Para sua Empresa"}
             description={"Loren ipsum dolor sit amet , &nbsp; consec"}
           />
 
@@ -38,7 +38,7 @@ const Index = () => {
 
           <Card
             Icon={LockIcon}
-            title={"Para seu Telefone"}
+            title={"Verificação em duas Etapas"}
             description={"Loren ipsum dolor sit amet , &nbsp; consec"}
           />
         </S.ContainerCards>

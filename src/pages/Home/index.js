@@ -21,12 +21,17 @@ const Home = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            width: "90%",
+            width: "100%",
           }}
         >
           <header>
             <Menu />
           </header>
+          <Section01 />
+          <PlansInformation />
+          <ReasonsChoiceCards />
+          <Secao3 />
+          <Footer />
         </div>
       </div>
     </>
